@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header{
+width: 100%;
+height: 780px;
+background-color: #284854;
+display: flex;
+justify-content: center;
+padding: 23px 0px;
+
+
+}
+header nav{
+  /* position: relative; */
+width: 100%;
+height: 80px;
+background-color: #284854;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav .div{
+  position: relative;
+width: 80%;
+height: 80px;
+background-color: #60C1BD;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav .h1{
+  top: 25px;
+  left: 50px;
+  font-size: 30px;
+  font-weight: 400px;
+  font-family: serif;
+  color: #ffffff;
+}
+header nav ul{
+  display: flex;
+}
+header nav ul li {
+  padding: 10px 30px;
+}
+
+
+header nav ul li a {
+  color: #284854;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input{
+  text-align: center;
+  width: 80px;
+  height: 30px;
+  top: 30px;
+  left: 1000px;
+  font-size: 14px;
+  background-color: #60C1BD;
+  color: white;
+  border: 2px solid #ffffff;
+}
+::placeholder{
+  color: #ffffff;
+}
+.pos{
+  position: absolute;
+}
+header h1{
+  font-size: 85px;
+  color: #8BC441;
+}
+.container{
+  position: absolute;
+  top: 250px;
+  left: auto;
+  width: 80%;
+
+
+}
+header h1{
+  width: 750px;
+  height: 210px;
+}
+header p{
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+  color: #ffffff;
+  width: 550px;
+  height: 210px;
+}
+header img{
+  position: absolute;
+  top:20px ;
+  left: 900px;
+
+}
+header .img{
+  position: absolute;
+  top:20px ;
+  left: 950px;
+
+}
+header .divcha{
+  position: absolute;
+  top: 440px;
+  left: 0px;
+width: 510px;
+height: 205px;
+background-color: #F4F6F0;
+border-radius: 4px;
+}
+header .divcha2{
+  position: absolute;
+  top: 440px;
+  left: 700px;
+width: 510px;
+height: 205px;
+background-color: #F4F6F0;
+border-radius: 4px;
+}
+.divcha img{
+position: absolute;
+top: 50px;
+left: 50px;
+}
+.divcha2 img{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  }
+  .divcha2 .img2{
+    position: absolute;
+    top: 55px;
+    left: 70px;
+    }
+    .divcha h6{
+      width: 240px;
+      font-size: 38px;
+color: #8BC441;
+margin: 50px 200px;
+
+
+    }
+    .divcha2 h6{
+      width: 240px;
+      font-size: 38px;
+color: #8BC441;
+margin: 50px 200px;
+
+
+    }
+    .divcha h3{
+      width: 188px;
+      font-size: 20px;
+color: #60C1BD;
+margin: 50px 200px;
+
+
+    }
+    .divcha2 h3{
+      width: 188px;
+      font-size: 20px;
+color: #60C1BD;
+margin: 45px 200px;
+
+
+    }
+    section{
+      width: 100%;
+      height: 850px;
+      background-color: #ffffff;
+      margin-top: 300px;
+    }
+    .container2{
+      width: 80%;
+      margin: 250px auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    section h1{
+    text-align: center;
+    font-size: 22px;
+    color: #60C1BD;
+    }
+    section h2{
+      text-align: center;
+      font-size: 55px;
+      color: #284854;
+      }
+      section .diva{
+        position: relative;
+        width: 300px;
+        height: 400px;
+      }
+      .diva .img{
+        position: absolute;
+        top:0px ;
+        left:0px ;
+        width: 100%;
+        height: 400px;
+      }
+      .diva img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+      }
+      .divb{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+
+      }
+      .divb h1{
+        color: #798B56;
+      }
+      .divb h2{
+        position: absolute;
+        top: 1450px;
+        color:#8BC441;
+font-size: 40px;
+      }
+      .divb p{
+        width: 525px;
+        position: absolute;
+        top: 1520px;
+        color:#284854;
+font-size: 16px;
+      }
+      .section2{
+        width: 100%;
+        height: 850px;
+        background-color: #ffffff;
+        margin-top: 300px;
+      }
+      .section2 .divb{
+        position: relative;
+        width: 300px;
+        height: 400px;
+      }
+      .divb .img{
+        position: absolute;
+        top:0px ;
+        left:0px ;
+        width: 100%;
+        height: 400px;
+      }
+      .divb img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+      }
+      .diva{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+
+      }
+      .diva h1{
+        color: #798B56;
+      }
+      .diva h2{
+        position: absolute;
+        top: 50px;
+        left: -10px;
+        color:#8BC441;
+        width: 490px;
+font-size: 40px;
+      }
+      .diva p{
+        width: 450px;
+        position: absolute;
+        top: 180px;
+        color:#284854;
+font-size: 16px;
+      }
